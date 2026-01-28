@@ -88,26 +88,18 @@ BlogPortal-main
 └── README.md
 
 
-🚀 Getting Started
 ✅ Prerequisites
-
 Node.js v18.x
-
 MongoDB (local)
-
 npm or yarn
 
 ⚙️ Environment Setup
 1️⃣ Backend .env
-
 Create the file:
-
 📄 server/.env
 
 PORT=5001
-
 MONGO_URI=mongodb://127.0.0.1:27017/blogportal
-
 SECRET=mySessionSecret123
 JWT_SECRET=myJwtSecret123
 
@@ -117,7 +109,6 @@ BACKEND_URL=http://localhost:5001
 2️⃣ Frontend API Configuration
 
 📄 client/src/service/api.js
-
 export const BASE_URL = "http://localhost:5001";
 
 📦 Installation
