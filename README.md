@@ -41,18 +41,52 @@ Multer + GridFS
 
 📂 Project Structure
 BlogPortal-main
-├── client        # React frontend
-│   └── src
-│       ├── components
-│       ├── redux
-│       └── service
-├── server        # Node + Express backend
-│   ├── controllers
-│   ├── routes
-│   ├── model
-│   ├── utils
-│   └── db
+├── client/                     # React Frontend
+│   └── src/
+│       ├── assets/             # Images & static assets
+│       ├── components/         # UI components
+│       │   ├── about/
+│       │   ├── authent/        # Login, Signup, Forgot Password
+│       │   ├── banner/
+│       │   ├── contact/
+│       │   ├── create/         # Create & Update blog posts
+│       │   ├── header/
+│       │   ├── Home/
+│       │   └── postDetails/    # Blog details & comments
+│       ├── redux/              # Redux store, reducers & slices
+│       ├── service/            # API configuration
+│       ├── App.js
+│       └── index.js
+│
+├── server/                     # Node.js + Express Backend
+│   ├── controllers/            # Business logic
+│   │   ├── user.controller.js
+│   │   ├── posts.controller.js
+│   │   ├── comments.controller.js
+│   │   └── image.controller.js
+│   ├── routes/                 # API routes
+│   │   ├── user.routes.js
+│   │   ├── posts.routes.js
+│   │   ├── comments.routes.js
+│   │   └── image.routes.js
+│   ├── model/                  # MongoDB schemas
+│   │   ├── user.model.js
+│   │   ├── posts.model.js
+│   │   ├── comment.model.js
+│   │   └── userOtp.model.js
+│   ├── utils/                  # GridFS & upload utilities
+│   │   └── upload.utils.js
+│   ├── db/                     # Database & JWT config
+│   │   ├── db.js
+│   │   └── jwt.config.js
+│   └── server.js               # Server entry point
+│
+├── .env                        # Environment variables
+├── .gitignore
+├── package.json
+├── package-lock.json
 └── README.md
+
 
 🚀 Getting Started
 ✅ Prerequisites
