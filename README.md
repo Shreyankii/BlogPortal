@@ -3,59 +3,41 @@
 A full-stack blogging platform where users can share their journeys, experiences, and ideas through blogs. The application allows users to create accounts, write and manage blog posts, upload images, and interact with content through likes and comments.
 
 🌟 Features
-
 🔐 User Authentication
-
 Signup & Login
-
 Forgot password using OTP verification
 
 ✍️ Blog Management
-
 Create, edit, and delete blog posts
-
 Categorize blogs based on interests or journeys
 
 💬 User Interaction
-
 Like / Unlike blog posts
-
 Comment on posts
 
 🖼️ Image Upload
-
 Upload blog images using MongoDB GridFS
 
 📱 Responsive UI
-
 Works smoothly on desktop and mobile devices
 
 🛠️ Tech Stack
+
 Frontend
-
 React
-
 Redux
-
 React Router
-
 Material-UI
-
 Axios
-
 React Toastify
 
 Backend
-
 Node.js
-
 Express.js
-
 MongoDB
-
 Mongoose
-
 Multer + GridFS
+
 
 📂 Project Structure
 BlogPortal-main
@@ -123,7 +105,6 @@ npm start
 
 
 Expected output:
-
 server is running successfully at 5001
 Successfully Connected to Database!!
 
@@ -133,43 +114,31 @@ npm start
 
 
 Frontend runs at:
-
 http://localhost:3000
 
 🔗 API Endpoints
 👤 User Routes
-
 POST /user/signup
-
 POST /user/login
-
 POST /user/sendotppassword
-
 POST /user/otpverify
-
 POST /user/newpassword
 
 📝 Blog Routes
-
 POST /createPost
-
 PUT /updatePost/:id
-
 DELETE /deletePost/:id
-
 GET /getPostsById/:id
-
 POST /posts/toggleLike/:id
 
+
+
 💬 Comments
-
 POST /AddNewComment
-
 🖼️ Image Upload
-
 POST /image/upload
-
 GET /image/:filename
+
 
 🧠 Purpose of the Project
 
