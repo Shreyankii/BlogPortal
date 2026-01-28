@@ -55,7 +55,7 @@ const Contact = () => {
         <SubHeading>📧 SAURABH GARAT</SubHeading>
         <Paragraph>
           Email: <br /> tawadeshreyank@gamil.com <br />
-          Email: <br /> saurabhgarat@gmail.com
+          Email: <br /> garatsaurabh@gmail.com
         </Paragraph>
       </div>
       <div>
